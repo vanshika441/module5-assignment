@@ -33,6 +33,8 @@ var insertHtml = function (selector, html) {
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
   html += "<img src='ajax-loader.gif'></div>";
+  html += "<img src='jumbotron 1200.jpg'></div>";
+  
   insertHtml(selector, html);
 };
 
